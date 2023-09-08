@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boss.cpp" />
     <ClCompile Include="home.cpp" />
+    <ClCompile Include="manager.cpp" />
     <ClCompile Include="normal.cpp" />
     <ClCompile Include="workerManage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="boss.h" />
+    <ClInclude Include="manager.h" />
     <ClInclude Include="normal.h" />
     <ClInclude Include="worker.h" />
     <ClInclude Include="workerManage.h" />

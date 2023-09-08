@@ -3,6 +3,10 @@ using namespace std;
 #include "workerManage.h"
 #include "worker.h"
 #include "normal.h"
+#include "manager.h"
+#include "boss.h"
+
+
 
 int main()
 {
@@ -25,6 +29,7 @@ int main()
 			wm.ExitSystem();
 			break;
 		case 1: //添加职工
+			wm.Add_Emp();
 			break;
 		case 2: //显示职工
 			break;
