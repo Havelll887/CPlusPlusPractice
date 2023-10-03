@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "computerRoomReservation", "computerRoomReservation.vcxproj", "{72B2BED9-965B-4B52-A846-370AB8ED3987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Debug|x64.ActiveCfg = Debug|x64
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Debug|x64.Build.0 = Debug|x64
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Debug|x86.ActiveCfg = Debug|Win32
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Debug|x86.Build.0 = Debug|Win32
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Release|x64.ActiveCfg = Release|x64
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Release|x64.Build.0 = Release|x64
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Release|x86.ActiveCfg = Release|Win32
+		{72B2BED9-965B-4B52-A846-370AB8ED3987}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66BB9576-4DA9-4035-9E8D-DAEEFE7BEEE5}
+	EndGlobalSection
+EndGlobal
