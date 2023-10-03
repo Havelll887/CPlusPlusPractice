@@ -2,9 +2,12 @@
 using namespace std;
 #include "speechManager.h"
 #include <string>
+#include <ctime>
 
 int main()
 {
+	// 随机数种子
+	srand((unsigned int)time(NULL));
 	// 创建管理类对象
 	SpeechManager sm;
 
@@ -24,16 +27,19 @@ int main()
 
 		switch (choice)
 		{
-			// 开始比赛
+		// 开始比赛
 		case 1:
+			sm.startSpeech();
 			break;
-			// 查看往届比赛记录
+		// 查看往届比赛记录
 		case 2:
+			sm.showRecord();
 			break;
-			// 清空比赛记录
+		// 清空比赛记录
 		case 3:
+			sm.clearRecord();
 			break;
-			// 退出系统
+		// 退出系统
 		case 0:
 			sm.exitSystem();
 			break;
